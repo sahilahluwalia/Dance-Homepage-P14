@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    /* border:1pxx solid red; */
+}
+a { color: inherit; 
+    text-decoration: none;}
+.tiledBackground {
+    background-image: url(/images/background.jpg);
+    background-position:-50px 0px;
+    background-size: 550px;
+    position:absolute;
+    background-repeat: no-repeat;
+    display: cover;
+    width: 34%;
+    height: 118vh;
+    z-index: -1;
+    background-attachment:local;
+
+  }
+  
+body{
+   background-color: #F5F2F0;
+}
+header>nav>.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+header>nav>.navbar>.logoimg>img{
+    height: 35px;
+    z-index: 2;
+    margin:30px 50px 20px 50px; 
+}
+nav>.navbar>.long-line{
+    /* display: flex; */
+    /* padding:9px; */
+    /* padding-left:200px; */
+    margin:60px 10px 0px 300px;
+    height: 1px;
+    width: 1000px;
+    background-color: #333333;
+    display: block;
+}
+header>nav>.navbar>.nav-items{
+    font-family: 'Poppins', sans-serif;
+    color: #999796;
+    font-weight: 500;
+    /* float: left; */
+    margin:0px 0px 0px 0px; 
+    /* margin:0px; */
+    /* float: right; */
+display: flex;
+}
+header>nav>.navbar>.nav-items>ul:hover{
+    color: #333333;
+    cursor: pointer;
+
+}
+header>nav>.navbar>.nav-items>ul:nth-child(4){
+    margin-right: 80px;
+}
+header>nav>.navbar>.nav-items>ul{
+    margin:50px 40px 0px 20px;
+    white-space: nowrap;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 30px; */
+}
+
+main{
+    display: flex;
+}
+.left{
+    flex:1.25;
+}
+.right{
+   flex:2 ;
+   /* display: flex; */
+}
+
+.letters{
+    display: flex;
+    /* margin:0px; */
+    /* flex:2; */
+    /* display: flex; */
+    /* font-size: 100px; */
+}
+.letters>.firsthalf{
+    font-size: 120px;
+    color: #F5F2F0;
+    
+    text-shadow: -0.8px 0.8px 0 #333,
+    0.8px 0.8px 0 #333,
+   0.8px -0.8px 0 #333,
+  -0.8px -0.8px 0 #333;
+    ;
+    /* display: inline; */
+
+}
+body > main > div.right > div.letters > h3:hover{
+    color: #333333;
+
+}
+.letters>.firsthalf>h3:hover{
+    color: #333333;
+    background-color: black;
+
+}
+.right>.mid-section>.secondhalf>h3:hover{
+    /* font-size: 120px; */
+    color: #F5F2F0;
+    
+    text-shadow: -0.8px 0.8px 0 #333,
+    0.8px 0.8px 0 #333,
+   0.8px -0.8px 0 #333,
+  -0.8px -0.8px 0 #333;
+    ;
+    /* display: inline; */
+
+}
+
+.right>.mid-section>.secondhalf{
+    display: flex;
+    color: #333333;
+
+    margin-left:16%;
+    font-size: 120px;
+    position: relative;
+    bottom:40px;
+    /* display: flex; */
+    /* background-color:black */
+}
+
+.right>.mid-section>.secondhalf>.para{
+    margin: 60px 0px 0px 20px;
+    color: #999796;
+
+    /* display: flex; */
+    /* display: block; */
+    font-size: 30px;
+}
+.right>.mid-section>.secondhalf>.logos{
+    display:flex;
+    /* padding: 40px; */
+    position:relative;
+    bottom:60px;
+    left:90px;
+    flex-direction: column;
+    /* margin:20px 0px 20px 0px; */
+    height: 30px;
+    width: 30px;
+    /* float: left;  */
+    max-height: 0px;
+}
+.right>.mid-section>.secondhalf>.logos>img{
+    margin:15px 0px 15px 10px;
+    /* padding-left: 100px; */
+    
+    
+    /* margin:0px; */
+}
+.right>.mid-section{
+    height: 125px;
+}
+.right>.mybutton:hover{
+    background-color: #F5F2F0;
+    color: #333333;
+    transition: 250ms;
+    cursor: pointer;
+
+    border: 1px solid #333333;
+}
+.right>.mybutton{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: black; */
+    padding:15px 65px 15px 65px;
+    border-style: none;
+    border: 1px solid #333333;
+
+    /* border-radius: 0px; */
+    margin-left:494px;
+    font-weight: 600;
+    color: #F5F2F0;
+    margin-bottom: 25px;
+    background-color: #333333;
+    /* float: right; */
+    /* float: inline-end; */
+    /* float: inline-start; */
+    /* display: block; */
+}
+
+.bottom-section{
+    display: flex;
+}
+.bottom-section>.vertialline{
+    height: 205px;
+    width: 2px;
+    position: relative;
+    top:10px;
+    /* opacity: 60%; */
+
+    background-color: rgb(174, 174, 174);
+}
+.bottom-section>.verticaltext{
+    margin:0px 80px 0px 0px;
+    font-size: 20px;
+}
+.bottom-section>.verticaltext>*>ul{
+    margin-bottom: 20px;
+    color: #999796;
+
+    font-family: 'Poppins', sans-serif;;
+    
+    list-style: none;
+    white-space: nowrap; 
+}
+.bottom-section>.verticaltext>*>ul:hover{
+    color:#333333;
+    cursor: pointer;
+
+
+}
+
+.bottom-section>.verticaltext>ul:nth-child(5){
+    margin-bottom: 0px;
+}
+.photography ,.videography,.graphicdesign,.illustration,.animation {
+    display: flex;
+}
+.photography>img ,.videography>img,.graphicdesign>img,.illustration>img,.animation>img {
+    width: 10px;
+    margin-right: 20px;
+    position: relative;
+    right: 6px;
+    top:6px;
+    height: 10px;
+    /* color: aqua; */
+    opacity: 60%;
+}
+.photography:hover>img ,.videography:hover>img,.graphicdesign:hover>img,.illustration:hover>img,.animation:hover>img {
+    /* width: 10px; */
+    /* font-size: 60px; */
+    opacity: 100%;
+    /* position: relative; */
+    /* right: 6px; */
+    /* top:6px; */
+    /* height: 10px; */
+    /* color: aqua; */
+    /* opacity: 60%; */
+}
+.bottom-section>.text>h3{
+    font-size:120px;
+    /* font-family: 'Poppins', sans-serif; */
+    /* display: inline; */
+    height: 40px;
+    right: 10px;
+    position: relative;
+    bottom: 30px;
+/* max-height: 2px; */
+}
+.bottom-section>.text>img{
+    height: 50px;
+    opacity: 70%;
+}
+.bottom-section>.text>p{
+    margin-bottom:15px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+
+    font-family: 'Poppins', sans-serif;
+}
+/* body > main > div.right > div.bottom-section > div.text > div.pic > img */
+.bottom-section>.text>.pic>img{
+    width: 400px;
+    /* max-height: 200px; */
+    max-height: 250px;
+
+    /* display: cover; */
+    object-fit: cover;
+    /* object-position: 00px -50px; */
+}
+
+/* time=4.5hrs */
